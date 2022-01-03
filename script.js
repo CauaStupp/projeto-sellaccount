@@ -23,6 +23,7 @@ window.addEventListener('scroll', definirBotao);
 
 
 function zoom() {
+
     let imgZoom = document.querySelector('.img');
 
     if (imgZoom.style.width == '500px') {
@@ -40,5 +41,15 @@ function zoomSmall() {
         imgZoomS.style.width = '700px';
     } else {
         imgZoomS.style.width = '200px';
+    }
+}
+
+function zoomSmalls() {
+    let zoom = document.querySelector('.imgSmall-s')
+
+    if (zoom.style.width == '200px') {
+        zoom.style.width = '700px'
+    } else {
+        zoom.style.width = '200px'
     }
 }
