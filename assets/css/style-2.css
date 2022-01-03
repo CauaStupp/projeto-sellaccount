@@ -255,11 +255,15 @@ label[for="button-menu"] {
 .section-buy-img img {
     width: 500px;
     border: 5px solid #6b63ff;
+    transition: width 1s ease;
+    cursor: pointer;
 }
 
 .section-buy-img-small img {
     width: 200px;
     border: 5px solid #6b63ff;
+    transition: width 1s ease;
+    cursor: pointer;
 }
 
 .section-buy-conteudo {
@@ -392,6 +396,18 @@ address {
 
     .section-buy-area {
         margin: 10px 20px 10px 20px;
+    }
+
+    .section-buy-img {
+        width: auto;
+    }
+
+    .section-buy-img img {
+        width: 100px;
+    }
+
+    .section-buy-img-small {
+        width: 100%;
     }
 
     .footer-conteudo {

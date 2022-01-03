@@ -18,4 +18,27 @@ function definirBotao() {
     }
 }
 
-window.addEventListener('scroll', definirBotao)
+window.addEventListener('scroll', definirBotao);
+
+
+
+function zoom() {
+    let imgZoom = document.querySelector('.img');
+
+    if (imgZoom.style.width == '500px') {
+        imgZoom.style.width = '700px';
+    } else {
+        imgZoom.style.width = '500px';
+    }
+}
+
+
+function zoomSmall() {
+    let imgZoomS = document.querySelector('.imgSmall');
+
+    if (imgZoomS.style.width == '200px') {
+        imgZoomS.style.width = '700px';
+    } else {
+        imgZoomS.style.width = '200px';
+    }
+}
